@@ -1,0 +1,7 @@
+{
+  "name": "eva58appWilmerDurazno",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
