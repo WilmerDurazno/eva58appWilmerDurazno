@@ -6,4 +6,35 @@
 
 <ion-content>
 
+  <ion-item>
+    <ion-label >Imgen</ion-label>
+    <ion-input [(ngModel)]= "vehiculo.imgen"></ion-input>
+  </ion-item>
+  
+  <ion-item>
+    <ion-label >MARCA</ion-label>
+    <ion-input [(ngModel)]= "vehiculo.marca"></ion-input>
+  </ion-item>
+  
+  <ion-item>
+    <ion-label>PLACA</ion-label>
+    <ion-input [(ngModel)]= "vehiculo.placa"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>CHASIS</ion-label>
+    <ion-input [(ngModel)]= "vehiculo.chasis"></ion-input>
+  </ion-item>
+  
+  <ion-item>
+    <ion-label>COLOR</ion-label>
+    <ion-input [(ngModel)]= "vehiculo.color"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-button color='primary' (click)="guardar">Guardar</ion-button>
+  </ion-item>
+
+
+
 </ion-content>
